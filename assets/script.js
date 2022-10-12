@@ -6,4 +6,12 @@ var temp = document.getElementById('temp')
 var wind = document.getElementById('wind')
 var humidity = document.getElementById('humidity')
 var APIKey = "4d23d9d4be9f729849f35822048b70d9"
-var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appID=" + APIKey
+
+function retrieveWeather(city){
+let queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appID=" + APIKey;
+
+// fetch(queryURL)
+// return (retrieveWeather(city))
+// };
+
+submitBtn.addEventListener('click', (retrieveWeather()));
