@@ -13,10 +13,10 @@ function returnCityName(){
     }
 };
 //gets weather info based on the users input
-function retrieveWeather(){
-    var city = localStorage.getItem("city", cityInput)
-    let queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appID=" + APIKey;
-    console.log(queryURL)
-};
+// function retrieveWeather(){
+//     var city = localStorage.getItem("city", cityInput)
+//     let queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appID=" + APIKey;
+//     console.log(queryURL)
+// };
 
 submitBtn.addEventListener('click', returnCityName);
