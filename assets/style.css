@@ -1,0 +1,13 @@
+label{
+    margin-top: 10px;
+}
+
+.custom-btn-primary{
+    margin-left: 15px;
+}
+
+.custom-card{
+    margin-right: 200px;
+    margin-top: -75px;
+    min-height: 300px;
+}
