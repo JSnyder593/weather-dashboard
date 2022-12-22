@@ -24,5 +24,10 @@ label{
 
 #weeks-forecast{
     margin-left: 15px;
-    margin-top: 125px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#fiveDayHeader {
+    margin-left:15px;
 }
